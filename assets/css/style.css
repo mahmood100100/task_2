@@ -1,0 +1,603 @@
+/*public*/
+a{
+  text-decoration:none;
+}
+ul{
+    list-style-type: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.clrfix{
+    clear: both;
+}
+@font-face {
+    font-family:"Alegreya" ;
+src:url("../webfonts/Alegreya-VariableFont_wght.ttf");
+    font-family: 'Dancing Script';
+    src: url('../webfonts/DancingScript-Regular.ttf');
+}
+/*start header*/
+.header{
+    background-image: url(../img/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    overflow:hidden ;
+}
+.navbar{
+    height:80px;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+}
+.nav{
+    float: right;
+    width:50%;
+    padding-top: 30px;
+}
+.logo{
+    float: left;
+    width: 50%;
+}
+.logo img{
+    margin-top: 10px;
+    width:20%;
+   margin-right: 400px;
+}
+.nav ul li{
+    display:inline-block ;
+    width: 80px;
+    font-size: 20px;
+}
+.nav ul li a{
+    color: aliceblue;
+}
+@media screen and   (max-width: 576px) {
+    .navbar{
+        position:relative;
+        height: 150px;
+        width: 100%;
+        top: 0;
+    }
+    .nav{
+        width:100%;
+        
+    }
+    .nav ul li{
+        width: 60px;
+        font-size: 18px;
+    }
+    .logo{
+        text-align: center;
+        width: 100%;
+    }
+    .logo img{
+        margin-left: 100px;
+        margin-top: 10px;
+        width:50%;
+    }
+    /*end of navbar*/
+
+}
+
+.header-content{
+    margin-top: 120px;
+    color: aliceblue;
+    font-size: 32px;
+}
+.header-content h1{
+    margin-bottom: 30px;
+}
+.header-content p{
+    font-family:"Dancing Script", cursive;
+    margin-bottom: 30px;
+}
+.header-content button{
+    padding: 15px 30px;
+}
+.learn-more{
+    background-color: #c1ab84;
+    color: aliceblue;
+    cursor: pointer;
+}
+.learn-more:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.overlay{
+ background-color:rgb(0,0,0,.1);
+ overflow:hidden ;
+ height: 100vh;
+}
+@media screen and   (max-width: 576px) {
+    .header-content{
+        margin-top: 0px;
+        color: aliceblue;
+        font-size: 32px;
+    }
+    .header-content p{
+        font-family:"Dancing Script", cursive;
+        margin-bottom: 10px;
+    }
+    
+    /*end of header-content*/
+    
+}
+/*end header*/
+
+
+
+/*start of about us */
+.about-us{
+    overflow: hidden;
+}
+.chief-logo{
+    width: 50%;
+    float: left;
+}
+.about{
+    margin-top: 120px;
+    width: 50%;
+    float: left;
+}
+.chief-logo img{
+    margin-left: 100px;
+}
+.about h2{
+    text-align: left;
+    font-size: 36px;
+    font-family: "Alegreya",cursive;
+}
+.about h3{
+    color: #686868;
+    font-family: "Dancing Script",cursive;
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #c1ab84;
+}
+.about p{
+    color: #686868;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.about ul li i{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: center;
+    color: aliceblue;
+   background-color: #c1ab84;
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    line-height: 52px;
+    font-size: 24px;
+    top: 10px;
+}
+.about ul li {
+    color:#686868;
+    font-size: large;
+
+}
+@media screen and   (max-width: 576px) {
+    .about-us{
+        width: 100%;
+    }
+    .chief-logo{
+        float: none;
+        width: 100%;
+        
+    }
+    .about{
+        float: none;
+        margin-top: 0px;
+        width: 100%;
+        
+    }
+    .chief-logo img{
+        margin-left:-50px;
+        margin-right: 30px;
+    }
+    .about h2{
+        text-align: left;
+        font-size: 36px;
+        font-family: "Alegreya",cursive;
+        margin-left: 15px;
+    }
+    .about h3{
+        margin-left: 15px;
+        color: #686868;
+        font-family: "Dancing Script",cursive;
+        font-size: 28px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        color: #c1ab84;
+    }
+    .about p{
+        margin-left: 15px;
+        color: #686868;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    .about ul li {
+        margin-left: 15px;
+        color:#686868;
+        font-size: large;
+    
+    }
+    /*about us*/
+
+}
+/*end of about us section*/
+
+
+
+/*start of Reviewers  section*/
+.reviewers{
+    background-color:#f0f0f0;
+    overflow: hidden;
+}
+.reviewe{
+    margin-top: 100px;
+    margin-left: 150px;
+    float:left;
+    width: 40%;
+}
+.logo3{
+    margin-right:50px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    float: left;
+    width: 30%;
+}
+.logo3 img{
+    width: 550px;
+    height: 500px;
+}
+.reviewe h2{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #c1ab84;
+    font-family: "Dancing Script",cursive;
+}
+.reviewe p{
+    color: #686868;
+    margin-bottom: 30px;
+    font-size: large;
+}
+.reviewe ul li{
+    margin-bottom: 10px;
+    color: #686868;
+    font-size: 20px;
+}
+.reviewe ul li i{
+color: #c1ab84;
+margin-right: 5px;
+}
+.background{
+    background-image: url('../img/background2.jpg');
+    height: 500px;
+    background-size: cover;
+}
+@media screen and   (max-width: 576px) {
+    .reviewe{
+        margin-top: 20px;
+        margin-left: 20px;
+        float:none;
+        width: 90%;
+    }
+    .logo3{
+        margin-right:50px;
+        margin-left: 0px;
+        margin-top: 100px;
+        margin-bottom: 00px;
+        float: none;
+        width: 100%;
+    }
+    
+    .reviewe h2{
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        color: #c1ab84;
+        font-family: "Dancing Script",cursive;
+    }
+    
+    /*end of reviewers*/
+    
+}
+/*end of Reviewers  section*/
+
+/*start of our dishies*/
+.dishies-section{
+    text-align: center;
+    overflow: hidden;
+}
+.dishies-section div img{
+    width: 350px;
+  height: 300px;
+  margin-top: 50px;
+}
+.dishies-section h1,h2{
+    text-align: center;
+    margin-top: 50px;
+}
+.dishies-section h2{
+    font-family: "Dancing Script",cursive;
+    color: #c1ab84;
+}
+.dishies-section div{
+    float: left;
+    width: 28%;
+    margin-left: 60px;
+}
+.dishies-section div h3{
+    text-align: center;
+}
+.dishies-section div p{
+    color: #686868;
+}
+.dishies-section button{
+margin-top: 60px;
+margin-bottom: 60px;
+width: 200px;
+height: 50px;
+color: aliceblue;
+background-color: #c1ab84;
+font-size: large;
+border: 0ch;
+cursor: pointer;
+}
+.dishies-section button:hover{
+    background-color: rgb(83, 158, 79);
+    color: black;
+}
+@media screen and   (max-width: 576px) {
+    .dishies-section div{
+        float: none;
+        width: 100%;
+        margin-left: 0px;
+    }
+    /*end of dishies*/
+}
+/*end of our dishies*/
+
+
+/*start of location*/
+.location{
+    background-color: rgb(233, 233, 233);
+    overflow: hidden;
+}
+.info{
+    margin-left: 50px;
+    margin-top: 100px;
+    width: 40%;
+    float: left;
+}
+.map{
+    margin-top: 100px;
+    width: 40%;
+    float: left;
+}
+.map iframe{
+    width: 600px;
+    height: 600px;
+    margin-left: 100px;
+}
+.info h1{
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.info p{
+    margin-left: 100px;
+    font-size:large;
+    color: #686868;
+    margin-bottom: 30px;
+}
+.info ul{
+    margin-left: 100px;
+    font-size: larger;
+}
+.info ul li i{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: center;
+    color: aliceblue;
+   background-color: #c1ab84;
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    line-height: 52px;
+    font-size: 24px;
+    top: 10px;
+}
+@media screen and   (max-width: 576px) {
+    .location{
+        background-color: rgb(233, 233, 233);
+        overflow: hidden;
+    }
+    .info{
+        margin-left: -80px;
+        margin-top: 100px;
+        width: 100%;
+        float: none;
+    }
+    .map{
+        margin-top: 50px;
+        width: 100%;
+        float: none;
+        margin-bottom: 30px;
+    }
+    .map iframe{
+        width: 400px;
+        height: 400px;
+        margin-left: 0px;
+    }
+    .info h1{
+        margin-left: 100px;
+        margin-bottom: 30px;
+    }
+    .info p{
+        margin-left: 100px;
+        font-size:large;
+        color: #686868;
+        margin-bottom: 30px;
+    }
+    .info ul{
+        margin-left: 100px;
+        font-size: larger;
+    }
+    .info ul li i{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        text-align: center;
+        color: aliceblue;
+       background-color: #c1ab84;
+        width: 52px;
+        height: 52px;
+        border-radius: 100%;
+        line-height: 52px;
+        font-size: 24px;
+        top: 10px;
+    }
+    /*end of location*/
+}
+/*end of location*/
+/*start of semi-footer*/
+.semi-footer{
+    overflow: hidden;
+    background-color: #403d38;
+}
+.semi-footer h2{
+    text-align: left;
+    margin-bottom: 50px;
+    color: aliceblue;
+}
+.semi-footer p{
+
+    margin-bottom: 30px;
+    color: #969696;
+}
+.semi-footer div{
+   
+    width: 20%;
+    float: left;
+    margin-left: 50px;
+}
+.semi-footer a{
+    cursor: pointer;
+    color: #969696;
+}
+.semi-footer ul li{
+    color: #969696;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.semi-footer ul li i{
+    margin-right: 5px;
+}
+.glope{
+    height: 100px;
+    position: absolute;
+    top: 4560px;
+    right: 200px;
+    opacity: .25;
+}
+.glope img{
+    height: 300px;
+    width: 400px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+@media screen and   (max-width: 576px) {
+    .semi-footer div{
+       
+        width: 100%;
+    }
+    .glope{
+        position: absolute;
+        top: 8660px;
+        right: 200px;
+        opacity: .25;
+        
+    }
+    .glope img{
+        height: 200px;
+        width: 400px;
+        margin-top: 100px;
+        margin-left: 150px;
+    }
+
+}
+/*end of semi-footer*/
+
+
+
+/*start of footer*/
+.footer{
+    background-color: #353330;
+    text-align: center;
+    color: #969696;
+}
+.footer ul li i{
+    margin-bottom: 10px;
+    text-align: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    line-height: 52px;
+    font-size: 24px;
+    top: 10px;
+    color: #a7a0a0;
+    background-color: #4d4944;
+    
+}
+.footer ul li{
+    margin-top: 30px;
+    margin-right: 7px;
+    display: inline-block;
+}
+.footer img{
+    margin-top: 50px;
+}
+.footer p{
+    margin-top: 30px;
+}
+.footer ul li i:hover{
+    background-color: aqua;
+    color: blue;
+}
+
+/*end of footer*/
+/*panel*/
+.panel-menu{
+    position: fixed;
+    top: 300px;
+    right: 0;
+   font-size: 36px;
+}
+.panel-menu li{
+    text-align: center;
+   margin-bottom: 20px;
+   
+}
+.panel-menu ul{
+    background-color: white;
+    
+}
+.panel-menu i{
+    color: #686868;
+}
+.panel-menu i:hover{
+   color: blue;
+}
